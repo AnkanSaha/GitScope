@@ -1,0 +1,32 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE settings
+.idea/
+.vscode/
+
+# Local agent/tooling metadata
+.claude/
+.codex
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependency and coverage directories
+node_modules/
+coverage/
+
+# Build artifacts
+dist/
+build/
+*.zip
+gitscope-v*.zip
+
+# Logs and temporary files
+*.log
+tmp/
+tmp-*/
+
