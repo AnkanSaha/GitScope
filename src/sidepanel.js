@@ -224,12 +224,23 @@ function showTemporaryButtonLabel(button, label, duration = 1400) {
 function openSettings() {
   settingsModal.classList.remove("hidden");
   settingsModal.setAttribute("aria-hidden", "false");
-  tokenInput.focus();
+  settingsModal.inert = false;
+
+  // Focus token input after a brief delay to ensure modal is visible
+  setTimeout(() => {
+    tokenInput.focus();
+  }, 50);
 }
 
 function closeSettings() {
   settingsModal.classList.add("hidden");
   settingsModal.setAttribute("aria-hidden", "true");
+  settingsModal.inert = true;
+
+  // Remove focus from any elements inside the modal
+  if (document.activeElement && settingsModal.contains(document.activeElement)) {
+    document.activeElement.blur();
+  }
 }
 
 function getFriendlyError(error, context) {

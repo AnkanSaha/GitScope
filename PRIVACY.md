@@ -1,7 +1,7 @@
 # Privacy Policy for GitScope
 
 **Last Updated:** April 17, 2026
-**Version:** 1.1.0
+**Version:** 1.1.1
 
 ## Overview
 
@@ -132,7 +132,7 @@ GitScope does not knowingly collect information from anyone under 13 years of ag
 We may update this privacy policy occasionally. Changes will be reflected in:
 - The "Last Updated" date at the top
 - The extension version number
-- Release notes on the Chrome Web Store
+- Repository release notes or extension listing updates, when applicable
 
 ## Permissions Explained
 
@@ -149,15 +149,15 @@ GitScope requests the following Chrome permissions:
 ## Open Source
 
 GitScope is open source. You can review the code to verify our privacy practices:
-- **Repository:** [GitHub Repository URL]
+- **Repository:** This repository
 - **License:** MIT License
 
 ## Contact
 
 If you have questions or concerns about this privacy policy:
 
-- **Email:** [your-email@example.com]
-- **GitHub Issues:** [GitHub Issues URL]
+- **Support:** See [SUPPORT.md](./SUPPORT.md)
+- **Security Issues:** See [SECURITY.md](./SECURITY.md) and avoid public disclosure
 
 ## Compliance
 
